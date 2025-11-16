@@ -1,0 +1,74 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+@theme {
+  --font:"Space Grotesk", "sanse-serif";
+  --black:#151515;
+  --lBlack:#242424;
+  --green:#4EE1A0;
+  --gray:#d9d9d9;
+  --white:#FFFFFF;
+  --text-xlHeading: 88px;
+  --text-lHeading: 48px;
+  --text-mHeading: 24px;
+}
+body{
+@apply bg-[var(--black)] text-[var(--white)] font-[--font]
+}
+h1{
+  @apply text-[--text-xlHeading] font-[--font] leading-[88px] tracking-[-2.5px]
+}
+h2{
+  @apply text-[--text-lHeading] font-[--font] leading-[56px] tracking-[-1.5px]
+}
+h3{
+  @apply font-[--font] text-[--text-mHeading] leading-[32px]
+}
+p{
+  @apply text-[18px] font-[--font] leading-[28px]
+} */ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+
+:root {
+  --font: "Space Grotesk", sans-serif;
+  --black: #151515;
+  --lBlack: #242424;
+  --green: #4EE1A0;
+  --gray: #d9d9d9;
+  --white: #FFFFFF;
+  --text-xlHeading: 68px;
+  --text-lHeading: 48px;
+  --text-mHeading: 24px;
+}
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: var(--font);
+}
+
+/* h1 {
+  font-size: var(--text-xlHeading);
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  font-family: var(--font);
+}
+
+h2 {
+  font-size: var(--text-lHeading);
+  line-height: 56px;
+  letter-spacing: -1.5px;
+  font-family: var(--font);
+}
+
+h3 {
+  font-size: var(--text-mHeading);
+  line-height: 32px;
+  font-family: var(--font);
+} */
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+  font-family: var(--font);
+}
