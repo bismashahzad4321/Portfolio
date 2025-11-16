@@ -15,7 +15,7 @@ const HeroSection = () => {
                 <h1 className=' text-[30px] sm:text-[40px]  md:text-[40px] lg:text-[60px]' >Nice to meet you I am Bisma Sheikh</h1>
 
                 <p>Based in the Pakistan, I’m a front-end developer passionate about building accessible web apps that users love.</p>
-                <p className='pt-[50px]'>Contact Me</p>
+               <button className='pt-[50px] cursor-pointer'><a href="#contact">Contact Me</a></button> 
                 <div className='w-[100px] bg-[#4EE1A0] h-[5px]'></div>
             </div>
 

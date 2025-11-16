@@ -13,7 +13,7 @@ const Projects = () => {
             <div className='flex flex-row py-[60px] justify-around text-start items-start sm:py-[100px] lg:justify-between lg:px-[100px] lg:items-center lg:text-center lg:h-[100px] space-x-5 lg:py-[100px] '>
                 <h1 className='text-[20px] sm:text-[60px] lg:text-[88px] font-bold'>Projects</h1>
                 <div>
-                    <span className='text-[10px] sm:text-[30px]'>Contact Me</span>
+                     <button className='pt-[50px] cursor-pointer'><a href="#contact">Contact Me</a></button> 
                     <div className='lg:w-[100px] bg-[#4EE1A0] h-[5px]'></div>
                 </div>
             </div>

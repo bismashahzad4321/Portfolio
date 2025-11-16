@@ -14,17 +14,17 @@ const Contact = () => {
                     </p>
                 </div>
                 {/* Contact Form */}
-                <div className='flex flex-col items-start justify-start lg:justify-end items-end w-[90%] sm:w-[90%] lg:w-[40%]'>
+                <div id='contact' className='flex flex-col items-start justify-start lg:justify-end items-end w-[90%] sm:w-[90%] lg:w-[40%]'>
                 <form action="" className='flex flex-col py-[30px] sm:w-[100%] lg:w-[80%]'>
                     <input type="text" 
                     placeholder='NAME' 
                     className='bg-transparent outline-none py-8 border-b border-[#D9D9D9] placeholder:text-[#D9D9D9] tracking-[2px] '/>
                     <input type="email" placeholder='Email'
                      className='bg-transparent outline-none py-8 border-b border-[#D9D9D9] placeholder:text-[#D9D9D9] tracking-[2px] ' />
-                    <input type="text"  placeholder='MESSAGE'
+                    <textarea type="text"  placeholder='MESSAGE'
                      className='bg-transparent outline-none py-13 border-b border-[#D9D9D9] placeholder:text-[#D9D9D9] tracking-[2px] '/>
-                      <p className='pt-[50px]'>Contact Me</p>
-                <div className='w-[100px] bg-[#4EE1A0] h-[5px]'></div>
+                      <p className='pt-[50px] cursor-pointer'>Send Message</p>
+                <div className='w-[120px] bg-[#4EE1A0] h-[5px]'></div>
                 </form>
                 </div>
             </div>

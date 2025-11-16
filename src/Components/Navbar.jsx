@@ -13,11 +13,18 @@ const Navbar = () => {
       </div>
 
       {/* Icons */}
-      <div className="flex items-center space-x-4">
-        <img src={Shape} alt="" className="w-[30px] h-[30px]" />
-        <img src={Shape2} alt="" className="w-[30px] h-[30px]" />
-        <img src={Path} alt="" className="w-[30px] h-[30px]" />
-      </div>
+     <div className="flex items-center space-x-4">
+  <a href="https://github.com/bismashahzad4321" target="_blank" rel="noopener noreferrer">
+    <img src={Shape} alt="GitHub" className="w-[30px] h-[30px]" />
+  </a>
+  <a href="https://www.linkedin.com/in/bisma-shahzad-92541a329/" target="_blank" rel="noopener noreferrer">
+    <img src={Shape2} alt="LinkedIn" className="w-[30px] h-[30px]" />
+  </a>
+  <a href="https://www.frontendmentor.io/profile/bismashahzad4321" target="_blank" rel="noopener noreferrer">
+    <img src={Path} alt="Frontend Mentor" className="w-[30px] h-[30px]" />
+  </a>
+</div>
+
 
     </div>
   )
